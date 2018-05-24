@@ -34,7 +34,7 @@ def my_form():
 
 
 
-@app.route('/', methods=['POST'])
+@app.route('/lstm', methods=['POST'])
 def model_and_predict():
 	plots = request.form['plots']
 	#print (plots)
